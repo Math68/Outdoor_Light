@@ -8,12 +8,12 @@
 #include <Arduino_JSON.h>
 
 // Replace with your network credentials
-const char* ssid = "Freebox-372EBF";
-const char* password = "mfrfzq7db9q43xzrqmv49b";
+const char* ssid = "*****";
+const char* password = "*****";
 
 //EMCP
-//const char* ssid = "INTERNET";
-//const char* password = "---#####---=even_PW_is_masked";
+//const char* ssid = "*****";
+//const char* password = "*****";
 
 AsyncWebServer server(80);
 AsyncWebSocket ws("/ws");
